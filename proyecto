@@ -1,0 +1,406 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- Mi estilo de CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Bienvenidos a iLearn</title>
+  </head>
+  <body>
+    <!-- Menú de mavegación, debes adicionar los cambios de orden para celular-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><img src="imagenes/engranelogo.PNG" width="50" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Cómo funciona iLearn <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Testimonios</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Preguntas frecuentes</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+
+    <!-- Portada, debes adicionar los cambios de orden para celular-->
+    <div class="container">
+        <class class="row">
+          <div class="col col-sm-9 col-lg-4">
+            <div class="bg-white">
+              <div class="row">
+                <img src="imagenes/ilearn.png" width= "350" alt="">
+              </div>
+              <div class="row">
+                <div class="col">
+                  <button type="button" class="btn btn-dark">Aplica</button>               
+                </div>
+                <div class="col">
+                  <button type="button" class="btn btn-warning">Más información</button>
+                </div>               
+              </div>
+            </div>
+          </div>
+          <div class="col col-sm-3 col-lg- bg-white">
+            <img src="imagenes/collage.png" width="849" alt="">
+          </div>
+        </class>
+    </div>
+
+    <!--Sección Auspiciadores,debes adicionar los cambios de orden para celular-->
+    <div class="container-fluid">
+      <div class="row my-3">
+        <div class="col bg-white">
+          Alianzas institucionales
+        </div>
+        <div class="col bg-white">
+          Ellos nos respaldan
+        </div>
+      </div>
+      <div class="row my-3">
+        <div class="col text-center bg-white">
+          <div class="row">
+            <div class="col">
+              <img src="imagenes/upnvol1.PNG" width="120" alt="">
+            </div>
+            <div class="col">
+              <img src="imagenes/colegiomeliton.PNG" width="130" alt="">
+            </div>
+            <div class="col">
+              <img src="imagenes/unfvlogo.PNG" width="200" alt="">
+            </div> 
+          </div>
+        </div>
+        <div class="col text-center bg-white">
+          <div class="row">
+            <div class="col">
+              <img src="imagenes/startupperu.PNG" width="120" alt="">
+            </div>
+            <div class="col">
+              <img src="imagenes/asedivol1.PNG" width="140" alt="">
+            </div>
+            <div class="col">
+              <img src="imagenes/incubasanmarcos.PNG" width="120" alt="">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <img src="imagenes/investa.PNG" width="130" alt="">
+            </div>
+            <div class="col">
+              <img src="imagenes/asep.PNG" width="140" alt="">
+            </div>
+            <div class="col">
+              <img src="imagenes/fablabperu.PNG" width="140" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Golden Circle, el primer texto no alinea como el resto, falta juntar las flechas con sus textos respectivos, debes adicionar los cambios de orden para celular-->
+    <div class="container">
+      <div class="row my-5">
+        <div class="col text-center"><h2>Nuestra motivación, tu desarrollo</h2></div>
+      </div>
+      <div class="row my-5">
+        <div class="col-6">
+          <img src="imagenes/golden.PNG" width="350" alt="">
+        </div>
+        <div class="col-6">
+          <div class="row">
+            <div class="col-3">
+              <img src="imagenes/flechaoscuravol2.PNG" width="45" alt="">
+            </div>
+            <div class="col-9">
+              <p class="text-justify">
+                Experiencia estudiantil que forma profesionales en la industria tech.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-3">
+              <img src="imagenes/flechagrisclarovol2.PNG" width="45" alt="">
+            </div>
+            <div class="col-9">
+              <p class="text-justify">
+                Clases personalizadas, colaborativas, talleres e invitación a eventos tech de manera online.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-3">
+              <img src="imagenes/flechanaranjavol2.PNG" width="45" alt="">
+            </div>
+            <div class="col-9">
+              <p class="text-justify">
+                Fortalecer la etapa formativa de jóvenes de nuestro país para que participen de soluciones innovadoras.
+              </p>
+            </div>
+          </div>          
+        </div>
+      </div>  
+    </div>
+
+    <!--¿Cómo funciona?, falta reducir tamaño de iconos y alinear texto-->
+    <div class="container">
+      <div class="row my-5">
+        <div class="col">
+          <img src="imagenes/christian.PNG" width="350" alt="">
+        </div>
+        <div class="col">
+          <div class="row my-4">
+            <h2>¿Cómo funciona?</h2>
+          </div>
+          <div class="row my-4">
+            <div class="col"><img src="imagenes/cohete.PNG" width="100" alt=""></div>
+            <div class="col text-justify">
+              <div class="row font-weight-bold">Convocatoria y postulación</div>
+              <div class="row">Difundimos nuestra convocatoria online de pasantías y seleccionamos a los mejores candidatos.</div>
+            </div>
+          </div>
+          <div class="row my-4">
+            <div class="col"><img src="imagenes/tuerca.PNG" width="100" alt=""></div>
+            <div class="col text-justify">
+              <div class="row font-weight-bold">Aprendizaje iLearn</div>
+              <div class="row">Te ofrecemos mentoría y sesiones teórico-prácticas para crear proyectos innovadores.</div>
+            </div>
+          </div>
+          <div class="row my-4">
+            <div class="col"><img src="imagenes/manos.PNG" width="100" alt=""></div>
+            <div class="col text-justify">
+              <div class="row font-weight-bold">Colaboración efectiva</div>
+              <div class="row">Nuestro programa se basa en el éxito grupal y la comunicación efectiva entre mentores y pasantes.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Timeline del programa, falta alinear y colores-->
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <h2>Timeline del programa [3° temporada]</h2>
+          <hr>
+        </div>
+      </div>
+      <div class="row my-5">
+        <div class="col-3">
+          <div class="row"><img src="imagenes/cohetenaranja.PNG" alt=""></div>
+          <div class="row text-center">Lanzamiento</div>
+          <div class="row text-center">Noviembre</div>
+        </div>
+        <div class="col-3">
+          <div class="row"><img src="imagenes/selecciogrisoscura.PNG" alt=""></div>
+          <div class="row text-center">Selección</div>
+          <div class="row text-center">Diciembre</div>
+        </div>
+        <div class="col-3">
+          <div class="row"><img src="imagenes/botonoffgris.PNG" alt=""></div>
+          <div class="row text-center">Inicio</div>
+          <div class="row text-center">Enero</div>
+        </div>
+        <div class="col-3">
+          <div class="row"><img src="imagenes/egresadogrisclaro.PNG" alt=""></div>
+          <div class="row text-center">Graduación</div>
+          <div class="row text-center">Junio</div>
+        </div>
+      </div>
+    </div>
+
+    <!--¿Por qué iLearn?-->
+    <div class="container my-5">
+      <div class="row-12 my-3 text-center"><h2>¿Por qué iLearn?</h2></div>
+      <div class="row-6 font-weight-bold">Flexible con tu tiempo</div>
+      <div class="row-6 my-3">La pasantía se adecua a tu horario y ritmo.</div>
+      <div class="row-6 font-weight-bold">Aprendizaje colaborativo</div>
+      <div class="row-6 my-3">Te incorporamos con pasantes de tu área para sesiones grupales efectivas.</div>
+      <div class="row-6 font-weight-bold">Learning by doing</div>
+      <div class="row-6 my-3">Nuestra metodología se basa en la aplicación del conocimiento en proyectos innovadores.</div>
+      <div class="row-6 font-weight-bold">Experiencia 4.0</div>
+      <div class="row-6 my-3">Nuestra trayectoria dentro de la industria tech (startups) acelerarán tu crecimiento.</div>
+      <div class="row-6 font-weight-bold">Portafolio profesional</div>
+      <div class="row-6 my-3">Crea proyectos únicos con mentoring y herramientas digitales durante el programa.</div>
+    </div>
+
+    <!--Áreas de pasantía-->
+    <div class="container my-5">
+      <div class="row-12 text-center">
+        <h2>Áreas de pasantía</h2>
+      </div>
+      <div class="row my-3">
+        <div class="col-4">
+          <div class="card">
+            <img src="imagenes/publicidad-digital.png" class="card-img-top" width="50" alt="ícono de megafono sobre laptop">
+            <div class="card-body">
+              <h5 class="card-title text-center font-weight-bold">Marketing Digital</h5>
+              <p class="card-text text-justify">Promover, comercializar y posicionar los productos y servicios de la startup a través de su página web y sus redes sociales.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card">
+            <img src="imagenes/desarrolloweb.png" class="card-img-top" width="50" alt="ícono de megafono sobre laptop">
+            <div class="card-body">
+              <h5 class="card-title text-center font-weight-bold">Desarrollo Web</h5>
+              <p class="card-text text-justify">Medir y optimizar el rendimiento enfocado a la mejora continua de la plataforma web para diseñadores, fab labs y carpinteros.</p>
+            </div>
+          </div>          
+        </div>
+        <div class="col-4">
+          <div class="card">
+            <img src="imagenes/industriadigital.png" class="card-img-top" width="50" alt="ícono de megafono sobre laptop">
+            <div class="card-body">
+              <h5 class="card-title text-center font-weight-bold">Industria 4.0</h5>
+              <p class="card-text text-justify">Posicionar el laboratorio de fabricación digital como un espacio especializado en tecnologías automatizadas y procesos industriales innovadores.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center my-3">
+        <div class="col-6 col-md-4">
+          <div class="card">
+            <img src="imagenes/administracion.png" class="card-img-top" width="50" alt="ícono de megafono sobre laptop">
+            <div class="card-body">
+              <h5 class="card-title text-center font-weight-bold">Administración y Negocios Internacionales</h5>
+              <p class="card-text text-justify">Desarrollar oportunidades de negocios en el exterior y negociaciones con actores locales aplicando networking empresarial.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4">
+          <div class="card">
+            <img src="imagenes/diseñovectorizado.png" class="card-img-top" width="50" alt="ícono de megafono sobre laptop">
+            <div class="card-body">
+              <h5 class="card-title text-center font-weight-bold">Diseño Digital</h5>
+              <p class="card-text text-justify">Fortalecer la comunidad de diseño computacional con profesionales de alta calidad de la industria del diseño innovador.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!--Preguntas frecuentes-->
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-6">
+          <div class="container my-5">
+            <div class="row">
+              <h1>Preguntas</h1>
+            </div>
+            <div class="row">
+              <h1>frecuentes</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-2"><img src="imagenes/botonmasnaranja.PNG" width="70" alt=""></div>
+            <div class="col-8 align-item-center text-justify">
+              <div class="row">
+                ¿Tiene algún costo?
+              </div>
+              <div class="row">
+                Es gratuito, la educación es accesible.
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-2"><img src="imagenes/botonmasnaranja.PNG" width="70" alt=""></div>
+            <div class="col-8 align-item-center text-justify">
+              <div class="row">
+                ¿Cuáles son los requisitos para ser pasante?
+              </div>
+              <div class="row">
+                Ser un estudiante proactivo con ganas de crear.
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-2"><img src="imagenes/botonmasnaranja.PNG" width="70" alt=""></div>
+            <div class="col-8 align-item-center text-justify">
+              <div class="row">
+                ¿Cuándo empiezan las convocatorias?
+              </div>
+              <div class="row">
+                Puedes conocer las fechas más cercanas aquí.
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-2"><img src="imagenes/botonmasnaranja.PNG" width="70" alt=""></div>
+            <div class="col-8 align-item-center text-justify">
+              <div class="row">
+                ¿Puedo postular a más de un área de pasantía?
+              </div>
+              <div class="row">
+                Claro, solamente indícanos en cuál y te ayudamos.
+              </div>            
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-2"><img src="imagenes/botonmasnaranja.PNG" width="70" alt=""></div>
+            <div class="col-8 align-item-center text-justify">
+              <div class="row">
+                ¿Al culminar el programa recibo una certificación?
+              </div>
+              <div class="row">
+                ¡Sí! Conjuntamente al portafolio que construiremos.
+              </div>  
+            </div>
+          </div>
+        </div>
+        <div class="col-6 my-5">
+          En toda esta columna va el formulario estilo card centrado
+        </div>       
+      </div>
+    </div>
+
+    <!--CTA FINAL-->
+    <div class="container-fluid">
+      <div class="row-12 text-center my-5"><h1>¿Listo para innovar?</h1></div>
+      <div class="row justify-content-center">
+        <div class="col-3 text-center">
+          <button type="button" class="btn btn-dark btn-lg btn-block">Aplica</button>
+        </div>
+      </div>
+      <div class="row my-5">
+        <div class="col-6 my-5"><img src="imagenes/ilearn.png" width="450" alt=""></div>
+        <div class="col-6 my-5">
+          <div class="row-6 text-center my-5">Hecho con 🧡 desde Perú</div>
+          <div class="row my-5">
+            <div class="col"><img src="imagenes/facebook-negro.png" width="50" alt=""></div>
+            <div class="col"><img src="imagenes/twitter-negro.png" width="50" alt=""></div>
+            <div class="col"><img src="imagenes/instagram-negro.png" width="50" alt=""></div>
+            <div class="col"><img src="imagenes/linkedin-negrodos.png" width="50" alt=""></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
